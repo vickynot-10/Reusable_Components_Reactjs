@@ -106,8 +106,8 @@ function MainComp() {
   //SNACKBAR
   const [showSnack, setSnack] = useState(true);
   const [snackText, setSnacktext] = useState({
-    snacktext: "",
-    snackcolor: "",
+    snacktext: "hello from snackbar",
+    snackcolor: "black",
   });
 
   function toggleSnack() {
