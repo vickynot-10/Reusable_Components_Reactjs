@@ -1,0 +1,22 @@
+#tooltip-container{
+    display: inline-block;
+    position: relative;
+  
+}
+#tooltip{
+    position: absolute;
+    border-radius: 8px;
+    z-index: 900;
+    font-weight: 500;
+    opacity: 0; 
+    animation:0.3s fadeIN linear forwards ;
+}
+@keyframes fadeIN {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

@@ -1,0 +1,117 @@
+#container {
+  width: 100%;
+}
+#main-div {
+  width: 90%;
+  margin: auto;
+}
+#all-comp {
+  width: 70%;
+  margin: auto;
+  min-height: 50dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#search-header-div {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#search-header-subdiv {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 60%;
+}
+#search-box {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#loader-div-comp,#snackbar-div,#selectbox-div,#toaster-div,#tooltip-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#loader-div-comp p,
+#modal-header-text {
+  font-weight: 700;
+  font-size: clamp(1rem, 1.25rem, 135rem);
+  text-align: left;
+  align-self: flex-start;
+}
+.hover-btn{
+  color: #000;
+  margin: 20px;
+  background-color: transparent;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0.25em;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.hover-btn:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+#loader-div-comp input[type="number"],
+#modal-comp-div input[type="number"],
+#modal-comp-div input[type="text"],
+#selectbox-div input[type="number"] ,
+#snackbar-div input[type="text"] ,#toaster-div input[type="text"]  ,#toaster-div input[type="number"] { 
+  width: 300px;
+  margin: 10px;
+  height: 50px;
+  padding: 10px;
+  font-size: clamp(0.765rem, 0.875rem, 1rem);
+}
+#loader-div-comp input[type="color"] {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 0px;
+}
+#modal-comp-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+#modal-comp-div div ,#snackbar-div div{
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#toaster-div div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
