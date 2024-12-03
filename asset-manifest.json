@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Reusable_Components_Reactjs/src/index.html/static/css/main.c41bd17a.css",
-    "main.js": "/Reusable_Components_Reactjs/src/index.html/static/js/main.d1264b60.js",
-    "static/js/453.2bc707c3.chunk.js": "/Reusable_Components_Reactjs/src/index.html/static/js/453.2bc707c3.chunk.js",
-    "index.html": "/Reusable_Components_Reactjs/src/index.html/index.html",
-    "main.c41bd17a.css.map": "/Reusable_Components_Reactjs/src/index.html/static/css/main.c41bd17a.css.map",
-    "main.d1264b60.js.map": "/Reusable_Components_Reactjs/src/index.html/static/js/main.d1264b60.js.map",
-    "453.2bc707c3.chunk.js.map": "/Reusable_Components_Reactjs/src/index.html/static/js/453.2bc707c3.chunk.js.map"
+    "main.css": "/Reusable_Components_Reactjs/static/css/main.c41bd17a.css",
+    "main.js": "/Reusable_Components_Reactjs/static/js/main.0b982344.js",
+    "static/js/453.2bc707c3.chunk.js": "/Reusable_Components_Reactjs/static/js/453.2bc707c3.chunk.js",
+    "index.html": "/Reusable_Components_Reactjs/index.html",
+    "main.c41bd17a.css.map": "/Reusable_Components_Reactjs/static/css/main.c41bd17a.css.map",
+    "main.0b982344.js.map": "/Reusable_Components_Reactjs/static/js/main.0b982344.js.map",
+    "453.2bc707c3.chunk.js.map": "/Reusable_Components_Reactjs/static/js/453.2bc707c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c41bd17a.css",
-    "static/js/main.d1264b60.js"
+    "static/js/main.0b982344.js"
   ]
 }
