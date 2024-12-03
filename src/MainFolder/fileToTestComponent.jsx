@@ -443,9 +443,7 @@ function MainComp() {
           <div id="tooltip-div" >
           <p id="modal-header-text" >Tooltip Component </p>
             <ToolTip>
-              <p style={{
-                margin:'20px 0 50px 0'
-              }} >Hover to see Tooltip</p>
+              <p >Hover to see Tooltip</p>
             </ToolTip>
           </div>
 
