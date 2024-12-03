@@ -442,7 +442,7 @@ function MainComp() {
 
           <div id="tooltip-div" >
           <p id="modal-header-text" >Tooltip Component </p>
-            <ToolTip>
+            <ToolTip tooltipWidth="100px" >
               <p >Hover to see Tooltip</p>
             </ToolTip>
           </div>
